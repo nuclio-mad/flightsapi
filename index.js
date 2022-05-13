@@ -6,35 +6,33 @@ app.get('/', (req, res) => {
   res.send('Hello World!')
 })
 
-app.get('/passenger', (req, res) => {
-  console.log('return passengers')
-  res.json([])
-})
+app.route('/passenger')
+  .get((req, res) => {
+    console.log('return passengers')
+    res.json([])
+  })
+  .post((req, res) => {
+    console.log('create passenger')
+    res.json({})
+  })
 
-app.post('/passenger', (req, res) => {
-  console.log('create passenger')
-  res.json({})
-})
-
-app.get('/passenger/:passengerId', (req, res) => {
-  console.log('return one passenger')
-  res.json({})
-})
-
-app.put('/passenger/:passengerId', (req, res) => {
-  console.log('update one passenger')
-  res.json({})
-})
-
-app.patch('/passenger/:passengerId', (req, res) => {
-  console.log('update one passenger')
-  res.json({})
-})
-
-app.delete('/passenger/:passengerId', (req, res) => {
-  console.log('delete one passenger')
-  res.json({})
-})
+app.route('/passenger/:passengerId')
+  .get((req, res) => {
+    console.log('return one passenger')
+    res.json({})
+  })
+  .put((req, res) => {
+    console.log('update one passenger')
+    res.json({})
+  })
+  .patch((req, res) => {
+    console.log('update one passenger')
+    res.json({})
+  })
+  .delete((req, res) => {
+    console.log('delete one passenger')
+    res.json({})
+  })
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
