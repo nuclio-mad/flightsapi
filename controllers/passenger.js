@@ -23,7 +23,28 @@ const getPassengerById = async (req, res) => {
   })
 }
 
+const createPassenger = async (req, res) => {
+  const passengerData = req.body
+
+  const passengersFile = await fs.promises.readFile(__dirname + '/../data/passengers.json', 'utf-8')
+  const passengers = JSON.parse(passengersFile)
+  const lastPassenger = passengers[passengers.length -1]
+
+  const passenger = {
+    id: lastPassenger.id + 1,
+    name: passengerData.name,
+    surname: passengerData.surname
+  }
+
+  passengers.push(passenger)
+
+  await fs.promises.writeFile(__dirname + '/../data/passengers.json', JSON.stringify(passengers, null, 2))
+
+  res.json(passenger)
+}
+
 module.exports = {
   getAllPassengers,
-  getPassengerById
+  getPassengerById,
+  createPassenger
 }

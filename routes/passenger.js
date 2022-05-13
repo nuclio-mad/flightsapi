@@ -8,8 +8,7 @@ passengerRouter.route('/')
     passengerController.getAllPassengers(req, res)
   })
   .post((req, res) => {
-    console.log('create passenger')
-    res.json({})
+    passengerController.createPassenger(req, res)
   })
 
 passengerRouter.route('/:passengerId')
