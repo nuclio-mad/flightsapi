@@ -1,0 +1,602 @@
+[
+  {
+    "id": 1,
+    "departure": "Luleå",
+    "arrival": "Sayapullo",
+    "seats": 93
+  },
+  {
+    "id": 2,
+    "departure": "Nantou",
+    "arrival": "Samashki",
+    "seats": 35
+  },
+  {
+    "id": 3,
+    "departure": "Gambut",
+    "arrival": "Balma",
+    "seats": 59
+  },
+  {
+    "id": 4,
+    "departure": "Foumban",
+    "arrival": "Sudislavl’",
+    "seats": 14
+  },
+  {
+    "id": 5,
+    "departure": "Yudai",
+    "arrival": "Sukabumi",
+    "seats": 75
+  },
+  {
+    "id": 6,
+    "departure": "Tazhuang",
+    "arrival": "Jinnan",
+    "seats": 26
+  },
+  {
+    "id": 7,
+    "departure": "Fangxi",
+    "arrival": "Dazaifu",
+    "seats": 36
+  },
+  {
+    "id": 8,
+    "departure": "Puerres",
+    "arrival": "Soraya",
+    "seats": 30
+  },
+  {
+    "id": 9,
+    "departure": "Nay Pyi Taw",
+    "arrival": "Muyudian",
+    "seats": 53
+  },
+  {
+    "id": 10,
+    "departure": "Tarnowskie Góry",
+    "arrival": "Dobryanka",
+    "seats": 58
+  },
+  {
+    "id": 11,
+    "departure": "Nizhniy Kurkuzhin",
+    "arrival": "El Bauga",
+    "seats": 28
+  },
+  {
+    "id": 12,
+    "departure": "Da’an",
+    "arrival": "Pomiechówek",
+    "seats": 9
+  },
+  {
+    "id": 13,
+    "departure": "Zhenqian",
+    "arrival": "Karangampel",
+    "seats": 58
+  },
+  {
+    "id": 14,
+    "departure": "Ed",
+    "arrival": "Brodósqui",
+    "seats": 5
+  },
+  {
+    "id": 15,
+    "departure": "Vokhaïkó",
+    "arrival": "Sanxi",
+    "seats": 31
+  },
+  {
+    "id": 16,
+    "departure": "Patzicía",
+    "arrival": "Sitrah",
+    "seats": 19
+  },
+  {
+    "id": 17,
+    "departure": "Nago",
+    "arrival": "Jastrowie",
+    "seats": 74
+  },
+  {
+    "id": 18,
+    "departure": "Allkaj",
+    "arrival": "Trompsburg",
+    "seats": 40
+  },
+  {
+    "id": 19,
+    "departure": "Priboj",
+    "arrival": "Kribi",
+    "seats": 10
+  },
+  {
+    "id": 20,
+    "departure": "Fengyuan",
+    "arrival": "Jadów",
+    "seats": 37
+  },
+  {
+    "id": 21,
+    "departure": "Przystajń",
+    "arrival": "Gombong",
+    "seats": 2
+  },
+  {
+    "id": 22,
+    "departure": "Al Khārijah",
+    "arrival": "Bao’an",
+    "seats": 89
+  },
+  {
+    "id": 23,
+    "departure": "Yantai",
+    "arrival": "Vannes",
+    "seats": 65
+  },
+  {
+    "id": 24,
+    "departure": "Zalishchyky",
+    "arrival": "Promissão",
+    "seats": 22
+  },
+  {
+    "id": 25,
+    "departure": "Kuching",
+    "arrival": "Jacksonville",
+    "seats": 79
+  },
+  {
+    "id": 26,
+    "departure": "Kotayk’",
+    "arrival": "Calgary",
+    "seats": 23
+  },
+  {
+    "id": 27,
+    "departure": "Kaminokawa",
+    "arrival": "Talayan",
+    "seats": 24
+  },
+  {
+    "id": 28,
+    "departure": "Jiazhuang",
+    "arrival": "Longping",
+    "seats": 1
+  },
+  {
+    "id": 29,
+    "departure": "Leon",
+    "arrival": "Huyang",
+    "seats": 2
+  },
+  {
+    "id": 30,
+    "departure": "Somorpenang",
+    "arrival": "Smokvica",
+    "seats": 18
+  },
+  {
+    "id": 31,
+    "departure": "Muzidian",
+    "arrival": "Ponta da Garça",
+    "seats": 2
+  },
+  {
+    "id": 32,
+    "departure": "Sovetakan",
+    "arrival": "Hassi Berkane",
+    "seats": 92
+  },
+  {
+    "id": 33,
+    "departure": "Kołczygłowy",
+    "arrival": "Yasugichō",
+    "seats": 95
+  },
+  {
+    "id": 34,
+    "departure": "Linjiang",
+    "arrival": "Lingkou",
+    "seats": 54
+  },
+  {
+    "id": 35,
+    "departure": "Gniezno",
+    "arrival": "Château-Richer",
+    "seats": 7
+  },
+  {
+    "id": 36,
+    "departure": "Pidvolochys’k",
+    "arrival": "Camindangan",
+    "seats": 42
+  },
+  {
+    "id": 37,
+    "departure": "Quesada",
+    "arrival": "Shicheng",
+    "seats": 3
+  },
+  {
+    "id": 38,
+    "departure": "Tianyuan",
+    "arrival": "Jandira",
+    "seats": 20
+  },
+  {
+    "id": 39,
+    "departure": "Dardhas",
+    "arrival": "Nogueira",
+    "seats": 42
+  },
+  {
+    "id": 40,
+    "departure": "Beringinjaya",
+    "arrival": "Kitahiroshima",
+    "seats": 39
+  },
+  {
+    "id": 41,
+    "departure": "Xinpo",
+    "arrival": "Cintawana",
+    "seats": 11
+  },
+  {
+    "id": 42,
+    "departure": "Novki",
+    "arrival": "Atikokan",
+    "seats": 61
+  },
+  {
+    "id": 43,
+    "departure": "Düsseldorf",
+    "arrival": "Jiangpu",
+    "seats": 37
+  },
+  {
+    "id": 44,
+    "departure": "Rengo",
+    "arrival": "Znamenskoye",
+    "seats": 27
+  },
+  {
+    "id": 45,
+    "departure": "Karvia",
+    "arrival": "Cavinti",
+    "seats": 65
+  },
+  {
+    "id": 46,
+    "departure": "Roma",
+    "arrival": "Bongandanga",
+    "seats": 53
+  },
+  {
+    "id": 47,
+    "departure": "La Rioja",
+    "arrival": "Ji Paraná",
+    "seats": 59
+  },
+  {
+    "id": 48,
+    "departure": "Iracemápolis",
+    "arrival": "Volodars’k-Volyns’kyy",
+    "seats": 71
+  },
+  {
+    "id": 49,
+    "departure": "Kota Bharu",
+    "arrival": "Tarbes",
+    "seats": 35
+  },
+  {
+    "id": 50,
+    "departure": "Siaton",
+    "arrival": "Harhorin",
+    "seats": 12
+  },
+  {
+    "id": 51,
+    "departure": "Lembur Tengah",
+    "arrival": "Proboštov",
+    "seats": 81
+  },
+  {
+    "id": 52,
+    "departure": "Mashan",
+    "arrival": "Guanshan",
+    "seats": 54
+  },
+  {
+    "id": 53,
+    "departure": "Sokol",
+    "arrival": "Sedayulawas",
+    "seats": 65
+  },
+  {
+    "id": 54,
+    "departure": "Banjar Cemenggon",
+    "arrival": "Itapuranga",
+    "seats": 9
+  },
+  {
+    "id": 55,
+    "departure": "Libertador General San Martín",
+    "arrival": "Miaotou",
+    "seats": 60
+  },
+  {
+    "id": 56,
+    "departure": "Cilentung",
+    "arrival": "Basiao",
+    "seats": 38
+  },
+  {
+    "id": 57,
+    "departure": "Riachão do Jacuípe",
+    "arrival": "Pärnu",
+    "seats": 62
+  },
+  {
+    "id": 58,
+    "departure": "Hongshi",
+    "arrival": "Huantuo",
+    "seats": 95
+  },
+  {
+    "id": 59,
+    "departure": "Bretaña",
+    "arrival": "Magang",
+    "seats": 23
+  },
+  {
+    "id": 60,
+    "departure": "Longtanping",
+    "arrival": "Paris 19",
+    "seats": 47
+  },
+  {
+    "id": 61,
+    "departure": "Dao",
+    "arrival": "Rzgów",
+    "seats": 7
+  },
+  {
+    "id": 62,
+    "departure": "Żabia Wola",
+    "arrival": "Vyatskiye Polyany",
+    "seats": 55
+  },
+  {
+    "id": 63,
+    "departure": "Chengbei",
+    "arrival": "Caozhen",
+    "seats": 22
+  },
+  {
+    "id": 64,
+    "departure": "Antony",
+    "arrival": "Trondheim",
+    "seats": 32
+  },
+  {
+    "id": 65,
+    "departure": "Yablonovskiy",
+    "arrival": "Boulogne-Billancourt",
+    "seats": 20
+  },
+  {
+    "id": 66,
+    "departure": "Andrijevica",
+    "arrival": "Dar Chabanne",
+    "seats": 5
+  },
+  {
+    "id": 67,
+    "departure": "Siteki",
+    "arrival": "Giyon",
+    "seats": 34
+  },
+  {
+    "id": 68,
+    "departure": "Huangcaotuo",
+    "arrival": "Neresnytsya",
+    "seats": 49
+  },
+  {
+    "id": 69,
+    "departure": "Shpola",
+    "arrival": "Langxi",
+    "seats": 76
+  },
+  {
+    "id": 70,
+    "departure": "Filiátes",
+    "arrival": "Carrazeda de Ansiães",
+    "seats": 30
+  },
+  {
+    "id": 71,
+    "departure": "Napoles",
+    "arrival": "Arroio do Meio",
+    "seats": 43
+  },
+  {
+    "id": 72,
+    "departure": "Prochnookopskaya",
+    "arrival": "Caihua",
+    "seats": 100
+  },
+  {
+    "id": 73,
+    "departure": "Pogag",
+    "arrival": "Lazo",
+    "seats": 72
+  },
+  {
+    "id": 74,
+    "departure": "Tabasalu",
+    "arrival": "Yanggang",
+    "seats": 43
+  },
+  {
+    "id": 75,
+    "departure": "Yeyik",
+    "arrival": "Kawit",
+    "seats": 43
+  },
+  {
+    "id": 76,
+    "departure": "Nangkaruka",
+    "arrival": "Göteborg",
+    "seats": 86
+  },
+  {
+    "id": 77,
+    "departure": "Shiliting",
+    "arrival": "Santa Catalina",
+    "seats": 81
+  },
+  {
+    "id": 78,
+    "departure": "Askersund",
+    "arrival": "Cergy-Pontoise",
+    "seats": 63
+  },
+  {
+    "id": 79,
+    "departure": "Pushkino",
+    "arrival": "Bendilmuning",
+    "seats": 28
+  },
+  {
+    "id": 80,
+    "departure": "Gose",
+    "arrival": "Farah",
+    "seats": 67
+  },
+  {
+    "id": 81,
+    "departure": "Remiremont",
+    "arrival": "Delmiro Gouveia",
+    "seats": 3
+  },
+  {
+    "id": 82,
+    "departure": "Alquerubim",
+    "arrival": "Pasarnangka",
+    "seats": 51
+  },
+  {
+    "id": 83,
+    "departure": "Slunj",
+    "arrival": "Haozhai",
+    "seats": 65
+  },
+  {
+    "id": 84,
+    "departure": "Uddevalla",
+    "arrival": "San Carlos",
+    "seats": 32
+  },
+  {
+    "id": 85,
+    "departure": "Urug",
+    "arrival": "Depok",
+    "seats": 33
+  },
+  {
+    "id": 86,
+    "departure": "Livadiya",
+    "arrival": "Shanling",
+    "seats": 67
+  },
+  {
+    "id": 87,
+    "departure": "Ménaka",
+    "arrival": "Cabitan",
+    "seats": 62
+  },
+  {
+    "id": 88,
+    "departure": "Ilopango",
+    "arrival": "Šentvid pri Stični",
+    "seats": 83
+  },
+  {
+    "id": 89,
+    "departure": "Wunat",
+    "arrival": "San Rafael",
+    "seats": 7
+  },
+  {
+    "id": 90,
+    "departure": "Sufang",
+    "arrival": "Klevan’",
+    "seats": 18
+  },
+  {
+    "id": 91,
+    "departure": "Pô",
+    "arrival": "Tucheng",
+    "seats": 96
+  },
+  {
+    "id": 92,
+    "departure": "Matatiele",
+    "arrival": "Lodan Wetan",
+    "seats": 31
+  },
+  {
+    "id": 93,
+    "departure": "Arbeláez",
+    "arrival": "Chãos",
+    "seats": 40
+  },
+  {
+    "id": 94,
+    "departure": "Yangmingbu",
+    "arrival": "Nanping",
+    "seats": 67
+  },
+  {
+    "id": 95,
+    "departure": "Matola",
+    "arrival": "Boston",
+    "seats": 15
+  },
+  {
+    "id": 96,
+    "departure": "Talok",
+    "arrival": "Xujiaqiao",
+    "seats": 97
+  },
+  {
+    "id": 97,
+    "departure": "Zuocun",
+    "arrival": "Simpang",
+    "seats": 76
+  },
+  {
+    "id": 98,
+    "departure": "Villa Serrano",
+    "arrival": "Thakhèk",
+    "seats": 23
+  },
+  {
+    "id": 99,
+    "departure": "Librazhd",
+    "arrival": "Albany",
+    "seats": 12
+  },
+  {
+    "id": 100,
+    "departure": "Matanzas",
+    "arrival": "Fort-de-France",
+    "seats": 9
+  }
+]
