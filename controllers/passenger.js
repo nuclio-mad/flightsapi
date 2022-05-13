@@ -40,11 +40,33 @@ const createPassenger = async (req, res) => {
 
   await fs.promises.writeFile(__dirname + '/../data/passengers.json', JSON.stringify(passengers, null, 2))
 
-  res.json(passenger)
+  res.status(201).json(passenger)
+}
+
+const deletePassenger = async (req, res) => {
+  const passengerId = Number(req.params.passengerId)
+  const passengersFile = await fs.promises.readFile(__dirname + '/../data/passengers.json', 'utf-8')
+  const passengers = JSON.parse(passengersFile)
+
+  const passengerI = passengers.findIndex((passenger) => {
+    return passenger.id === passengerId
+  })
+
+  if (passengerI === -1) {
+    return res.status(404).json({
+      error: 'passenger not found'
+    })
+  }
+  
+  const passengerDeleted = passengers.splice(passengerI, 1)
+  await fs.promises.writeFile(__dirname + '/../data/passengers.json', JSON.stringify(passengers, null, 2))
+
+  res.status(200).json(passengerDeleted)
 }
 
 module.exports = {
   getAllPassengers,
   getPassengerById,
-  createPassenger
+  createPassenger,
+  deletePassenger
 }

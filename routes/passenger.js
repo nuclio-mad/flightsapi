@@ -24,8 +24,7 @@ passengerRouter.route('/:passengerId')
     res.json({})
   })
   .delete((req, res) => {
-    console.log('delete one passenger')
-    res.json({})
+    passengerController.deletePassenger(req, res)
   })
 
 module.exports = passengerRouter
