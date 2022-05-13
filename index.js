@@ -1,5 +1,7 @@
 const express = require('express')
 const passengerRouter = require('./routes/passenger')
+const flightRouter = require('./routes/flight')
+
 const app = express()
 const port = 3000
 
@@ -10,6 +12,7 @@ app.get('/', (req, res) => {
 })
 
 app.use('/passenger', passengerRouter)
+app.use('/flight', flightRouter)
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
