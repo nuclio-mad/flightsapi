@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "name": "flightsapi",
+  "version": "1.0.0",
+  "description": "Vamos a crear una API RESTful completa, en la que los usuarios puedan reservar asientos de vuelos.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nuclio-mad/flightsapi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nuclio-mad/flightsapi/issues"
+  },
+  "homepage": "https://github.com/nuclio-mad/flightsapi#readme"
+}
